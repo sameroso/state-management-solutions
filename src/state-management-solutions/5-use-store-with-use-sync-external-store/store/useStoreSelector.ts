@@ -14,6 +14,7 @@ const useStoreSelector = <T, S>(store: Store<T>, selector: (state: T) => S) => {
   const state = useSyncExternalStore(store.subscribe, () =>
     selector(store.getState())
   );
+  console.log(state);
   return state;
 };
 
