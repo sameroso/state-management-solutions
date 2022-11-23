@@ -1,19 +1,19 @@
 import store from "../store";
 import useStore from "../useStore";
 
-const Counter2 = () => {
+const Counter3 = () => {
   const [state, setState] = useStore(store);
-  const inc2 = () => {
+  const inc3 = () => {
     setState((prev) => ({
       ...prev,
-      count: prev.count + 2,
+      count2: prev.count2 + 1,
     }));
   };
   return (
     <div>
-      {state.count} <button onClick={inc2}>+2</button>
+      {state.count2} <button onClick={inc3}>+1</button>
     </div>
   );
 };
 
-export default Counter2
+export default Counter3

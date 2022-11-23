@@ -1,8 +1,7 @@
-import store from "../store";
-import useStore from "../useStore";
+import useCounter from "../useCounter";
 
 const Counter1 = () => {
-  const [state, setState] = useStore(store);
+  const [state, setState] = useCounter();
   const inc = () => {
     setState((prev) => ({
       ...prev,
