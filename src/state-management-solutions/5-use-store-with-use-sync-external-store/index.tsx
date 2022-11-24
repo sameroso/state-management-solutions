@@ -12,6 +12,13 @@ const StoreWithSelectorWithSyncExternalStore = () => (
     <Counter2 />
     <Counter3 />
     <Counter4 />
+    <h4>Duplication </h4>
+    <Counter1 />
+    <Counter1 />
+    <Counter2 />
+    <Counter2 />
+    <Counter3 />
+    <Counter4 />
   </div>
 );
 
