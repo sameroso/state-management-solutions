@@ -4,10 +4,8 @@ import StoreWithSubscription from "./state-management-solutions/3-use-store-with
 import StoreWithSelector from "./state-management-solutions/4-use-store-with-selector";
 import StoreWithSelectorWithSyncExternalStore from "./state-management-solutions/5-use-store-with-use-sync-external-store";
 import StoreWithSelectorWithSyncExternalStoreContext from "./state-management-solutions/6-use-store-with-context";
-import { useState } from "react";
 
 function App() {
-  const [bool, setBool] = useState(false);
   return (
     <>
       <ComponentUseReducerSolution />
